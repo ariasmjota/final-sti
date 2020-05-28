@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FinalKnn</title>
+</head>
+
+<body>
+    <h2>Pregunta 1: </h2>
+
+    <p>¿Quien eres?</p>
+    <select class="desplegable">
+        <option value="">Busca tu nombre</option>
+    </select>
+
+    <p>Di con cuantas personas quieres compartir</p>
+    <input type="text" class="inputK" placeholder="Numero ">
+
+    <button class="btnEjecutar">Buscar</button>
+
+    <ul class="lista-Similitud"> Lista personas compatibles contigo</ul>
+
+
+    <h2>Pregunta 2: </h2>
+
+    <p>Di cuantas bebidas quieres compartir con grupo de personas anterior y veras la compatibilidad</p>
+    
+        <ul>
+            <li>1 = bebidas doradas </li>
+            <li>2 = bebidas como vinos </li>
+            <li>3 = bebidas transparentes </li>
+            <li>4 = bebidas oscuras </li>
+            <li>5 = bebidas rosas </li>
+        </lu>
+    
+    <input type="text" class="inputKD">
+    <button class="btnEjecutar2">Ejecutar 2</button>
+
+    <ul class="lista-SimilitudDestions"> Lista bebidas que seran de gusto con el grupo de personas</ul>
+
+
+
+    <h2>Pregunta 3: </h2>
+
+    <p>Persona base</p>
+    <select class="desplegablePersona3">
+        <option value="">-</option>
+    </select>
+    <input type="text" class="inputKD3">
+    <button class="btnEjecutar3">Ejecutar 3</button>
+    <ul class="lista-SimilitudPersona3"></ul>
+
+
+
+    <h2>Pregunta 4: </h2>
+
+    <p>Escoge una bebida y el numero de personas con las que deseas compartir</p>
+    <ul>
+        <li>1 = Discoteca </li>
+        <li>2 = bebidas como vinos </li>
+        <li>3 = bebidas transparentes </li>
+        <li>4 = bebidas oscuras </li>
+        <li>5 = bebidas rosas </li>
+    </lu>
+
+    <select class="desplegableCiudades4">
+        <option value="">-</option>
+    </select>
+    <input type="text" class="inputKD4">
+    <button class="btnEjecutar4">Disfrutar</button>
+    <ul class="lista-SimilitudCiudades4">  Lista de personas que mas les gustara esta situacion</ul>
+
+
+    <h2>Pregunta 5: </h2>
+
+    <p>Escoge una ciudad base</p>
+    <select class="desplegableCiudades5">
+        <option value="">-</option>
+    </select>
+    <input type="text" class="inputKD5">
+    <button class="btnEjecutar5">Ejecutar 5</button>
+    <ul class="lista-SimilitudCiudades5"> Lista de ciudades compatibles con esa unica ciudad</ul>
+    <input type="text" class="inputKD51">
+    <button class="btnEjecutar51">Ejecutar 51</button>
+    <ul class="lista-SimilitudCiudades51"> Lista de personas compatibles con la agregacion de ciudades anterior</ul>
+
+
+    <h2>Pregunta 6: </h2>
+
+    <p>Escoge una persona base</p>
+    <select class="desplegablePersona6">
+        <option value="">-</option>
+    </select>
+    <button class="btnEjecutar6">Ejecutar 6</button>
+    <ul class="lista-SimilitudCiudades6"> La ciudad mas compatible con esa persona</ul>
+    <input type="text" class="inputKD6">
+    <button class="btnEjecutar61">Ejecutar 61</button>
+    <ul class="lista-SimilitudCiudades61"> Lista de ciudades compatibles con la ciudad anterior</ul>
+    <input type="text" class="inputKD62">
+    <button class="btnEjecutar62">Ejecutar 62</button>
+    <ul class="lista-SimilitudPersona62"> Lista personas compatibles con el grupo de ciudades anterior</ul>
+
+
+    <h2>Pregunta 7: </h2>
+
+    <p>Escoge un color de bebida base</p>
+    <select class="desplegableCiudades7">
+        <option value="">bebida</option>
+    </select>
+    <button class="btnEjecutar7">Ejecutar 7</button>
+    <p class="prinClima">Se recomienda para una situacion como </p>
+   
+    <p class="numeroTelas">Tu lista de telas recomendadas es de: </p>
+    <p class="numeroTelas">Cuantas de estas telas quisieras ver?</p>
+    <input type="text" class="inputKD7">
+    <button class="btnEjecutar71">Ejecutar 71</button>
+    <ul class="lista-SimilitudTelas"> Lista de telas apropiadas para la ciudad</ul>
+    
+
+
+    <script src="./librerias/jquery-3.4.1.js"></script>
+    <script src="./index2.js"></script>
+
+</body>
+
+</html>
