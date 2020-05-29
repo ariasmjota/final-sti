@@ -9,7 +9,7 @@ var tela = [];
 var mejoresTelas = [];
 
 
-var s = document.querySelector(".desplegable");
+var s = document.querySelector(".desplegable1");
 var s3 = document.querySelector(".desplegablePersona3");
 var sCiudades4 = document.querySelector(".desplegableCiudades4");
 var sCiudades5 = document.querySelector(".desplegableCiudades5");
