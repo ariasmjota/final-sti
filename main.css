@@ -35,9 +35,9 @@ p{
 button{
     background-color: rgba(34, 189, 34, 0); /* Green */
     border: 2px solid #e7e7e7;
-    border-radius: 10px;
+    border-radius: 4px;
     color: rgb(179, 179, 179);
-    padding: 8px;
+    padding: 3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,15 +52,19 @@ button:hover{
     border: 2px solid #e7e7e7;
 }
 button:active{
-    
+    background-color: rgba(34, 189, 34, 0); /* Green */
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+    color: rgb(179, 179, 179);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 1.5vw;
-    background-color: rgb(250, 65, 65);
-    color: white;
-    border: 3px solid;
-    border-color:white; 
-
+    
 }
 ul{
     color: rgba(255, 255, 255, 0.667);
@@ -109,4 +113,19 @@ select{
 }
 .desplegable1{
     margin-left: 40%;
+}
+.desplegablePersona3{
+    margin-left: 40%;
+}
+.desplegableCiudades4{
+    margin-left: 35%;
+}
+.inputKD4{
+    margin-left: 1%;
+}
+.desplegableCiudades7{
+    margin-left: 43%;
+}
+.lista-SimilitudTelas{
+    margin-left: 28%;
 }
