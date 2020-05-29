@@ -1,0 +1,58 @@
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    color: rgb(235, 65, 65);
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5vw;
+}
+button{
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: white;
+    color:rgb(250, 65, 65) ;
+    border: 3px solid;
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgb(250, 65, 65);
+    color: white;
+    border: 3px solid;
+    border-color:rgb(250, 65, 65) ; 
+
+}
+button:active{
+    
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    background-color: rgb(250, 65, 65);
+    color: white;
+    border: 3px solid;
+    border-color:white; 
+
+}
+ul{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: italic;
+    font-size: 1.2vw;
+}
+input{
+    font-size: 1.2vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+select{
+    font-size: 1.2vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+.block{
+    display: none;
+}
