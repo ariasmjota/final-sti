@@ -820,10 +820,10 @@ function calcularClima() {
             stringClima = 'Vodka, Aguardiente'
             break;
         case 3:
-            stringClima = 'Cerveza, Ron,'
+            stringClima = 'Cerveza, Ron'
             break;
         case 4:
-            stringClima = 'Casa'
+            stringClima = 'Cerveza, Ron'
             break;
         case 5:
             stringClima = ''
